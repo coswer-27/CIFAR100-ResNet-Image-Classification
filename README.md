@@ -30,7 +30,7 @@
 - **硬體環境**：Google Colab (NVIDIA A100 Tensor Core GPU)
 - **訓練輪數 (Epochs)**：250 輪 (總耗時約 45 分鐘)
 - **批次大小 (Batch Size)**：128
-- **測試集最高準確率 (Test Accuracy)**：`68.7%`
+- **測試集最高準確率 (Test Accuracy)**：`68.37%`
 
 模型在訓練過程中展現了優異的收斂軌跡，驗證集損失函數 (Validation Loss) 趨勢平滑，證明 L2 正規化與餘弦退火策略成功抑制了深層網路易產生的過擬合現象。
 
